@@ -73,17 +73,18 @@ h1 {
   margin-top: 50px;
 
 }
-.ct-chart{
-  
+.ct-chart {
+  position: relative;
+  min-height: 300px;
+  height: 100%;
+}
+
+.ct-chart-one {
+
   height: 70%;
 }
 
-.ct-chart-one{
-
-  height: 70%;
-}
-
-.ct-chart-two{
+.ct-chart-two {
   height: 70%;
 }
 
@@ -99,12 +100,12 @@ h1 {
   height: 70%;
 }
 
-.ct-toolTip {
+.ct-tooltip {
     position: absolute;
     display: inherit;
     min-width: 10em;
-    margin-left: 18%;
-    margin-top: 12%;
+    /*margin-left: 18%;
+    margin-top: 12%;*/
     padding: 0px 0px;
     background: rgba(255,255,255,0.6);
     color: #fff;

@@ -1,4 +1,4 @@
-var $chart = $('.ct-chart, .ct-chart-one, .ct-chart-two, .ct-chart-three, .ct-chart-four, .ct-chart-five, ct-chart-six');
+var $chart = $('.ct-chart, .ct-chart-one, .ct-chart-two, .ct-chart-three, .ct-chart-four, .ct-chart-five, .ct-chart-six');
 
 var $toolTip = $chart
   .append('<div class="ct-tooltip"></div>')

@@ -18,9 +18,11 @@ var chart = new Chartist.Line('.ct-chart', {
    data: [28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2, 28.2] }
   ]
 }, {
-  low: 15
+  low: 15,
 
 });
+
+
 
 // Let's put a sequence number aside so we can use it in the event callbacks
 var seq = 0,
