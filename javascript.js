@@ -867,17 +867,34 @@ chart.on('created', function() {
 }, { */
 
   new Chartist.Bar('.ct-chart-six', {
-  labels: ['19', '20', '21', '22', '23', '24', '25'],
+  labels: ['19', '20', '21', '22', '23', '24', '25', '25.9', '26', '27', '28', '29', '30', '31-35', '36-40', '40+'],
   series: [
-    [800000, 1200000, 1400000, 1300000],
-    [200000, 400000, 500000, 300000],
-    [100000, 200000, 400000, 600000]
+  /* DDS */
+  { name: 'DDS', 
+    data: [0, 1, 0, 2, 2, 4, 6, 0, 4, 3, 2, 4, 1, 7, 1, 1] },
+    /* DMC */
+    { name: 'DMC',
+    data: [0, 3, 4, 8, 7, 6, 6, 0, 1, 2, 0, 3, 2, 7, 1, 0] },
+    /* DB */
+   { name: 'DB', data: [1, 1, 1, 3, 5, 5, 7, 0, 3, 4, 4, 2, 0, 1, 0, 0] },
+    /* MBC */
+    { name: 'MBC', data: [2, 2, 3, 2, 7, 3, 3, 0, 3, 3, 3, 0, 2, 2, 0, 1] },
+    /* MCE */
+    { name: 'MCE', data: [2, 2, 4, 7, 4, 4, 2, 0, 3, 3, 2, 0, 2, 3, 1, 0] },
+    /* IAD */
+    { name: 'IAD', data: [0, 0, 1, 0, 3, 4, 8, 0, 7, 7, 8, 4, 4, 9, 1, 1] },
+
+    /* AVERAGE AGE */
+    { name: 'Average Age all classes', data:
+    [0, 0, 0, 0, 0, 0, 0, 35, 0, 0, 0, 0, 0, 0, 0, 0] }
+    
   ]
 }, {
   stackBars: true,
   axisY: {
+    showLabel: true,
     labelInterpolationFnc: function(value) {
-      return (value / 1000) + 'k';
+      return (value / 1) + '';
     }
   }
 }).on('draw', function(data) {
