@@ -73,7 +73,7 @@ $("#transdevimg").attr('src', 'img/transdevlogobw.png');
 $("#crimezoneimg").attr('src', 'img/crimezonebw.png');
 $("#prestigeimg").attr('src', 'img/pgprestigebw.png');
 $("#volvoimg").attr('src', 'img/volvobw.png');
-$("#worksiteimg").attr('src', 'img/worksitebw.png');
+$("#worksiteimg").attr('src', 'img/WorksiteBW.png');
 
 
 
@@ -100,14 +100,14 @@ $("#transdevimg").attr('src', 'img/transdevlogobw.png');
 $("#apoteketimg").attr('src', 'img/apoteketbw.png');
 $("#prestigeimg").attr('src', 'img/pgprestigebw.png');
 $("#volvoimg").attr('src', 'img/volvobw.png');
-$("#worksiteimg").attr('src', 'img/worksitebw.png');
+$("#worksiteimg").attr('src', 'img/WorksiteBW.png');
 
 
 });
 });
   
     
-
+/*
 $(function() {
 $("#transdev").hover(
 function() {
@@ -129,8 +129,8 @@ $("#worksiteimg").attr('src', 'img/worksitebw.png');
 
 });
 
-});
-
+});*/
+/*
 $(function() {
 $("#volvo").hover(
 function() {
@@ -152,8 +152,8 @@ $("#worksiteimg").attr('src', 'img/worksitebw.png');
 
 });
 });
-
-
+*/
+/*
 $(function() {
 $("#prestige").hover(
 function() {
@@ -175,7 +175,8 @@ $("#worksiteimg").attr('src', 'img/worksitebw.png');
 
 });
 });
-    
+   
+*/ 
  
 $(function() {
 $("#mail").hover(
