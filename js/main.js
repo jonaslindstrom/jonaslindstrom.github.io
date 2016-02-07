@@ -5,7 +5,6 @@ $(function() {
     $('<img />',{ src: 'img/turtle_gif.gif'});
     $('<img />',{ src: 'img/contact_gif.gif'});
      $('<img />',{ src: 'img/owl.gif'});
-     $('<img />',{ src: 'img/topgun_gif.gif'});
     
     $('#Turtle').hover(function() {
       $(this).attr('src','img/turtle_gif.gif');
@@ -22,11 +21,7 @@ $(function() {
     },function() {
       $(this).attr('src','img/owl.png');
     });
-      $('#hyperIsland').hover(function() {
-      $(this).attr('src','img/topgun_gif.gif');
-    },function() {
-      $(this).attr('src','img/hyperIsland.png');
-    });
+    
    
    
 });
