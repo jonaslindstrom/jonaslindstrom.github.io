@@ -39,7 +39,7 @@ $(function() {
 $("#worksite").hover(
 function() {
 $("#worksite").stop().animate({ opacity: 1 }, {qeue:false });
-$("#worksiteimg").attr('src', 'worksite.png');
+$("#worksiteimg").attr('src', 'img/worksite.png');
 
 
 $("#apoteket").stop().animate({ opacity: 0.6 });
