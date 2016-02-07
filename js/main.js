@@ -1,5 +1,8 @@
 //HOVER FOR GIF
 
+
+$(document).ready(function(){
+
 $(function() {
      
     $('<img />',{ src: 'img/turtle_gif.gif'});
@@ -31,10 +34,6 @@ $(function() {
 
     //Hover over div to change opacity
 
-
-
-
-$(document).ready(function(){
 $("#worksite").hover(
 function() {
 $("#worksite").stop().animate({ opacity: 1 }, {qeue:false });
