@@ -37,9 +37,9 @@ $(function() {
 
 $(function() {
 $("#worksite").hover(
-    function() {
+function() {
 $("#worksite").stop().animate({ opacity: 1 }, {qeue:false });
-$("#worksiteimg").attr('src', 'img/Worksite.png');
+$("#worksiteimg").attr('src', 'img/worksite.png');
 
 
 $("#apoteket").stop().animate({ opacity: 0.6 });
