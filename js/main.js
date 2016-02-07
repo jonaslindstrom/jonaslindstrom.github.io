@@ -34,8 +34,10 @@ $(function() {
 
     //Hover over div to change opacity
 
+
+$(function() {
 $("#worksite").hover(
-function() {
+    function() {
 $("#worksite").stop().animate({ opacity: 1 }, {qeue:false });
 $("#worksiteimg").attr('src', 'img/Worksite.png');
 
@@ -51,6 +53,7 @@ $("#prestigeimg").attr('src', 'img/pgprestigebw.png');
 $("#volvoimg").attr('src', 'img/volvobw.png');
 $("#apoteketimg").attr('src', 'img/apoteketbw.png');
 
+});
 });
     
 
