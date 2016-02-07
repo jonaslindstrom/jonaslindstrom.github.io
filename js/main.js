@@ -186,7 +186,7 @@ $("#mail").stop().animate({ opacity: 1 }, {qeue:false });
 $("#mailimg").attr('src', 'img/mail.png');
 
 $("#linkedin").stop().animate({ opacity: 0.6 });  
-$("#linkedin").attr('src', 'img/linkedinbw.png');
+$("#linkedinimg").attr('src', 'img/linkedinbw.png');
     
 });
 });
