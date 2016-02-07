@@ -31,7 +31,6 @@ $(function() {
 
     //Hover over div to change opacity
 
-$("#worksite").css("opacity",'0.8');
 
 
 
@@ -39,7 +38,7 @@ $(document).ready(function(){
 $("#worksite").hover(
 function() {
 $("#worksite").stop().animate({ opacity: 1 }, {qeue:false });
-//$("#worksiteimg").attr('src', 'img/worksite.png');
+$("#worksiteimg").attr('src', 'img/worksite.png');
 
 
 $("#apoteket").stop().animate({ opacity: 0.6 });
