@@ -157,6 +157,17 @@ body {
    
 	
 }
+
+
+#worksite:hover img {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+   -o-transform:scale(1.05); /* Opera */
+   transform:scale(1.05);
+   
+
+}
 #mail:hover img {
     -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
@@ -188,15 +199,6 @@ body {
 	
 }
 
-#worksite:hover img {
-    -webkit-transform:scale(1.05); /* Safari and Chrome */
-  -moz-transform:scale(1.05); /* Firefox */
-  -ms-transform:scale(1.05); /* IE 9 */
-   -o-transform:scale(1.05); /* Opera */
-   transform:scale(1.05);
-   
-
-}
 #apoteket img, #apoteket .spanhover {
     -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
