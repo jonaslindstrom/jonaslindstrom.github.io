@@ -17,9 +17,17 @@
     font-family: 'consolas'; /*a name to be used later*/
     src: url(fonts/Consolas.ttf); /*URL to font*/
 }
+
 @font-face {
-    font-family: 'droid-mono'; /*a name to be used later*/
-    src: url(fonts/droidSansMono.ttf); /*URL to font*/
+    font-family: 'droid-mono';
+    src: url('fonts/DroidSansMono-webfont.eot');
+    src: url('fonts/DroidSansMono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSansMono-webfont.woff') format('woff'),
+         url('fonts/DroidSansMono-webfont.ttf') format('truetype'),
+         url('fonts/DroidSansMono-webfont.svg#droid_sans_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @font-face {
     font-family: 'droid-serif'; /*a name to be used later*/
