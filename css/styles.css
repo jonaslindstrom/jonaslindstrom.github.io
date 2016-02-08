@@ -104,7 +104,7 @@ body {
 
 
 #myNavbar {
-   float: right;
+   
     
       
 }
@@ -176,7 +176,7 @@ body {
    
 
 }
-#mail:hover img {
+#mail img {
    
      
      -webkit-transition: all 1s ease; /* Safari and Chrome */
@@ -195,7 +195,7 @@ body {
    -o-transform:scale(1.05); /* Opera */
    transform:scale(1.05);
 }
-#linkedin:hover img {
+#linkedin img {
     
     
      -webkit-transition: all 1s ease; /* Safari and Chrome */
