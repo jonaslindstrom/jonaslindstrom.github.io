@@ -1,7 +1,7 @@
 //HOVER FOR GIF
 
 
-$(document).ready(function(){
+
 
 $(function() {
      
@@ -34,7 +34,7 @@ $(function() {
 
     //Hover over div to change opacity
 
-
+$(document).ready(function(){
 $(function() {
 $("#worksite").hover(
 function() {
