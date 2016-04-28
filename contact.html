@@ -11,7 +11,20 @@
     <!-- Bootstrap -->
     <link href="css/styles.css" rel="stylesheet">
     
-    
+    <script>
+/**
+* Function that tracks a click on an outbound link in Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+* using 'navigator.sendBeacon' in browser that support it.
+*/
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'Linkedin', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -78,7 +91,7 @@
     
     <div class="container">
     <div class="row" id="contactrow">
-        <div class="col-md-5" id="linkedin"><a href="https://se.linkedin.com/in/jonas-lindstr%C3%B6m-63567591?trk=pub-pbmap" target="_blank"><img src="img/linkedinbw.png" img class="img-responsive" id="linkedinimg" width="200" height="200"></a></div>
+        <div class="col-md-5" id="linkedin"><a href="https://se.linkedin.com/in/jonas-lindstr%C3%B6m-63567591?trk=pub-pbmap" onclick="trackOutboundLink('https://se.linkedin.com/in/jonas-lindstr%C3%B6m-63567591?trk=pub-pbmap'); return false;" target="_blank"><img src="img/linkedinbw.png" img class="img-responsive" id="linkedinimg" width="200" height="200"></a></div>
         <div class="col-md-5" id="mail"><a href="mailto:jonas.lindstrom@hyperisland.se?Subject=Hi Jonas!" target="_top"><img src="img/mailbw.png" img class="img-responsive" id="mailimg" width="300" height="300"></a></div>
         
         </div>
